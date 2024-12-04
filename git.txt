@@ -1,0 +1,281 @@
+   92  rmdir -r provagit2/
+   93  rm -r provagit2/
+   95  cd provagit2/
+  100  cd .git
+  118  rm -r provagit/
+  121  mkdir provagit
+  122  cd provagit/
+  123  git init
+  124  git status
+  125  git clone https://github.com/labita/testmac.git
+  129  git --global
+  130  git --global user.name
+  131  git --global 
+  133  git --global 
+  135  git status
+  141  rm -r provagit/
+  143  git clone https://github.com/labita/testmac.git
+  147  git branch ramo
+  148  git branch
+  149  git checkout ramo
+  150  git branch
+  151  git status
+  156  git status
+  157  git diff
+  158  git log
+  159  git checkout nain
+  160  git checkout main
+  161  git merge ramo
+  163  git status
+  164  git add .
+  165  git commit -m "aggiunto una riga a citta nel ramo ramo"
+  166  git status
+  167  git merge ramo
+  168  git status
+  169  git log
+  170  git show
+  171  git checkout ramo
+  172  git status
+  173  git show
+  174  git show
+  175  git diff
+  176  git log
+  177  git add .
+  178  git status
+  179  git merge
+  180  git checkout
+  181  git status
+  182  git merge ramo
+  183  git push
+  184  git push -u origin main
+  185  git branch
+  186  git checkout
+  187  git branch
+  188  git checkout
+  189  git branch
+  190  git checkout
+  191  git branch
+  192  git checkout
+  193  git branch
+  194  git checkout main
+  195  git push -u origin main
+  196  git branch ramo2
+  197  git branch 
+  198  git push -u origin main
+  199  git merge ramo
+  200  git merge ramo2
+  201  git merge -m "merge ramo2"
+  202  git status
+  203  git status
+  204  git branch
+  205  git checkout ramo
+  207  git branch
+  208  git status
+  209  git chechout main
+  210  git checkout main
+  211  git merge ramo
+  212  git checkout --help
+  213  git merge --help
+  214  git branch -d ramo
+  215  git branch
+  216  git branch -d ramo2
+  217  git branch
+  220  git status
+  221  git branch ramo
+  222  git branch
+  223  git merge ramo
+  224  git checkout ramo
+  231  git checkout main
+  232  git branch
+  233  git merge ramo
+  234  git checkout ramo
+  236  git status
+  237  git add .
+  238  git commit -m "commit del file cose del ramo" 
+  239  git status
+  240  git checkout main
+  241  git status
+  242  git push -u origin main
+  243  git branch
+  244  git checkout ramo
+  245  git push -u origin main
+  246  git branch
+  247  git checkout main
+  248  git branch
+  249  git btanch -r
+  250  git --help branch
+  251  git branch -d ramo 
+  252  git branch -D ramo 
+  254  git status
+  255  git branch ramo
+  256  git branch 
+  257  git checkout ramo
+  258  git branch
+  261  git checkout main
+  263  git merge "merge" ramo"
+  267  git banch
+  268  git branch
+  269  git merge ramo
+  270  git merge -m "merge di ramo" ramo
+  271  git merge 
+  272  git merge ramo
+  273  git branch
+  274  git banch -D ramo
+  275  git branch -D ramo
+  276  git branch
+  280  git status
+  281  git branch
+  282  git add .
+  283  git status
+  284  git commit -m "creato altro file"
+  285  git statsu
+  286  git stattus
+  287  git push 
+  291  git status
+  292  git  log
+  293  git log 005da
+  294  git log 005da
+  295  git log 
+  296  git show
+  298  git show
+  299  git log 
+  300  git show /help
+  301  git show -help
+  303  git log -onelin
+  304  git log -oneline
+  305  git log -oneline
+  308  git log --oneline
+  309  git log --stat
+  310  git log --stat
+  314  git diff
+  315  git diff colori
+  317  git log
+  318  git status
+  320  git show
+  323  git show colore
+  324  git show 
+  325  git log --oneline
+  326  git show b4d4129
+  327  git show b4d4129
+  329  git show b4d4129
+  330  git diff b4d4129
+  331  git log b4d4129
+  332  git diff b4d4129
+  333  git show b4d4129
+  334  git diff --stat
+  340  git diff colori
+  341  git push 
+  345  git status
+  346  git add cose
+  347  git status
+  350  git status
+  351  git add cose
+  352  git status
+  356  git status
+  357  git commit -m "aggiunto file cose"
+  358  git status
+  360  git push
+  361  git status
+  362  git add .
+  363  git status
+  364  git push
+  365  git commit -m "aggiunta seconda  riga al file cose"
+  366  git status
+  367  git push
+  368  git branch
+  369  git branch ramo2
+  370  git cherchout ramo2
+  371  git checkout ramo2
+  372  git branch
+  376  git add .
+  378  git status
+  379  git commit -m "aggiunto file su ramo2"
+  380  git git statsus
+  381  git git status
+  382  git  status
+  383  git branch
+  384  git push ramo2
+  385  git push -help
+  386  git push origin ramo2
+  387  git checkout main
+  388  git branch
+  389  git push 
+  390  git status
+  391  git merge ramo2
+  392  git status
+  393  git push
+  394  git status
+  395  git log --oneline
+  396  git diff 7eed0dc
+  397  git log 7eed0dc
+  398  git show 7eed0dc
+  399  git branch -d ramo2
+  400  git branch 
+  401  git push
+  402  git push origin -d ramo2
+  408  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+  420  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+  505  git status
+  507  git show
+  508  git show head
+  509  git log --oneline
+  511  git show 7fa8570
+  512  git diff 7fa8570:colori
+  513  git diff 7fa8570:colori.txt
+  514  git diff 7fa8570:colori
+  515  git diff 7fa8570
+  518  git status
+  519  git diff 7fa8570
+  520  git diff colori 
+  521  git show colori 
+  522  git log --oneline
+  523  git show 7eed0dc
+  524  git show HEAD 7eed0dc
+  525  git status
+  526  git push
+  527  git status
+  528  git pull
+  529  git status
+  531  git status
+  534  git status
+  535  git log --oneline
+  536  git diff a4bde49
+  537  git diff a4bde49:cose
+  538  git diff --help
+  540  git log --stat
+  541  git log  a4bde49 --stat
+  542  git log --stat
+  543  git log  a4bde49 --stat
+  544  git log  --p
+  545  git log  a4bde49 --p
+  546  git log  a4bde49 -p
+  547  git log   -p
+  548  git status
+  549  git add colori
+  550  git status
+  551  git status
+  557  git status
+  559  git status
+  563  git status
+  565  git status
+  566  git commit -m "commit con file colori solo add e cose e natura non add""
+  567  git status
+  568  git status
+  569  git commit -m "commit con file colori solo add e file cose e natura non add"
+  570  git status
+  571  git status
+  572  git diff
+  574  git diff
+  575  git show
+  576  git log
+  577  git log --oneline
+  578  git 
+  579  git status
+  580  git push
+  582  cat history | grep "git" git.txt 
+  583  history | grep "git" git.txt 
+  585  touch git.txt
+  587  git status
+  588  history | grep "git" git.txt 
+  589  cat git.txt 
+  591  history | grep "git" > git.txt 
